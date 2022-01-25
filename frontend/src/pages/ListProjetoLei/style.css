@@ -1,0 +1,23 @@
+.ListProjetoLei > .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.ListProjetoLei > .container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.ListProjetoLei .loading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

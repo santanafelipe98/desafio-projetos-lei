@@ -1,0 +1,17 @@
+.TextArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.TextArea label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.TextArea textarea {
+    border: none;
+    padding: 10px;
+    resize: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+}

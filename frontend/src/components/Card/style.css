@@ -1,0 +1,28 @@
+.Card {
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+    flex: 1;
+    transition: background .3s ease-in;
+    cursor: pointer;
+}
+
+.Card:hover {
+    background: #f9f9f9;
+}
+
+.Card .cardTitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;   
+}
+
+.Card .cardTitle .cardId {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: normal;
+}
+
+.Card article p {
+    text-align: justify;
+}

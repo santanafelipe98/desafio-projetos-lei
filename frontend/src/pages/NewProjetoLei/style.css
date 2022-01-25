@@ -1,0 +1,11 @@
+.NewProjetoLei {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.NewProjetoLei > .bottom {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
